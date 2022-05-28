@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+   margin:0px;
+   padding: 0px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+.container{
+    max-width: 1200;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+}
+.box{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0.5rem;
+}
+.bgOrg{
+    background-color: orangered;
+}
+.bgSky{
+    background-color: skyblue;
+}
+.bgGray{
+    background-color: gray;
+}
+@media screen and (min-width:768px) {
+    .col-4{
+        width: 50%;
+        
+    }
+    
+}
+@media screen and (min-width:1200px){
+    .col-4{
+        width: 33.33%;
+    }
+}
